@@ -19,9 +19,12 @@ package for pcd file convert to octomap file like .bt or .ot.
 ### Usage
 
 1. `git clone https://github.com/siyiovo/pcd2octomap.git ` to in `$YOUR_WORKSPACE_FOLDER/src`
+
 2. set definition of point type in `/include/pcd2octomap/point_type_pcd_octomap_converter.hpp`
 
-this package support `pcl::PointXYZ`,  `pcl::PointXYZRGB` and `pcl::PointXYZRGBA`.  default : `typedef pcl::PointXYZ PointT;`
+   this package support `pcl::PointXYZ`,  `pcl::PointXYZRGB` and `pcl::PointXYZRGBA`. 
+
+   default : `typedef pcl::PointXYZ PointT;`
 
 3. ```
    catkin build
