@@ -10,8 +10,8 @@ package for pcd file convert to octomap file like .bt or .ot.
 3. octomap and octovis
 
    ```
-   octomap: sudo apt install ros-noetic-octomap*
-   octovis: sudo apt install ros-noetic-octovis*
+   sudo apt install ros-noetic-octomap*
+   sudo apt install ros-noetic-octovis*
    ```
 
    
