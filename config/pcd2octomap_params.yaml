@@ -1,0 +1,8 @@
+pcd_name: lab_inside.pcd
+ot_name: lab_inside.bt # prefer .bt format
+octree_resolution: 0.05
+voxel_grid_leaf_size: 0.05
+map_pose:
+  roll: 180.0
+  pitch: 0.0
+  yaw: 0.0

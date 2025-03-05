@@ -1,0 +1,5 @@
+<launch>
+    <node pkg="pcd2octomap" type="pcd_octomap_converter_node" name="pcd_octomap_converter_node" output="screen">
+        <rosparam command="load" file="$(find pcd2octomap)/config/pcd2octomap_params.yaml" />
+    </node>
+</launch>
